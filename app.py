@@ -20,7 +20,6 @@ def format_xml():
         data = request.json  
         xml_input = data.get('xmlInput')
         
-        # Use the safe version
         dom = safe_minidom.parseString(xml_input)
         formatted = dom.toprettyxml(indent="  ")
         

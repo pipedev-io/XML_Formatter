@@ -7,12 +7,19 @@
     </head>
    <body>
     <main>
+      <h1>XML Formatter</h1>
 
 <div class="container">
-        <textarea id="input_XML">this is a test</textarea>
-        <button class="Format" role="button" id="Format" type="submit" onclick="buttonClicked()">Format </button>
-        <textarea name="output_XML" id="output_XML" disabled>this is a test output</textarea>
+
+        <textarea id="input_XML" placeholder="Your malformed xml here"></textarea>
+        <div class="actionbutton">
+        <button class="Format" role="button" id="Format" type="submit" onclick="FormatInput()">Format </button>
+        <button class="Format clear" role="button" id="Format" type="submit" onclick="ClearInput()">Clear </button>
+         </div>   
+        <textarea name="output_XML" id="output_XML" placeholder="Press format to see your xml formatted here" disabled></textarea>
 </div>
+      <footer>Made by <a href="https://github.com/pipedev-io/XML_Formatter/tree/main">PipeDev</a></footer>
+
 </main>
 
 <script src="./index.js"></script>

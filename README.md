@@ -24,7 +24,6 @@ Needed this for work. Online formatters are hit or miss. Figured I'd make my own
 ### What's next (V1)
 Planning to ditch the library and build my own:
 
-Auto-fix missing closing tags (/>)
 Custom formatting algorithm from scratch
 
 Because why use someone else's when you can over-engineer your own?

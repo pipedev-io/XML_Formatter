@@ -1,4 +1,4 @@
-function buttonClicked(){
+function FormatInput(){
     var input = document.getElementById("input_XML").value;
     
     fetch('http://127.0.0.1:8585/format', {
@@ -21,4 +21,9 @@ function buttonClicked(){
         }
     })
     .catch(error => console.error('4. Error:', error));
+}
+
+function ClearInput(){
+    document.getElementById("input_XML").value="";
+   
 }
