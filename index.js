@@ -25,5 +25,7 @@ function FormatInput(){
 
 function ClearInput(){
     document.getElementById("input_XML").value="";
+    document.getElementById("output_XML").value="";
+
    
 }
