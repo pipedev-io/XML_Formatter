@@ -36,6 +36,10 @@ def format_xml():
         xml_input = data.get('xmlInput')
         dom = safe_minidom.parseString(xml_input)
         formatted = dom.toprettyxml(indent="  ")
+        lines = formatted.split('\n')
+        clean_lines = [line for line in lines if line.strip()]
+        formatted = '\n'.join(clean_lines)
+
         return jsonify({
             'formatted': formatted,
             'success': True
