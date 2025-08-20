@@ -1,7 +1,7 @@
 function FormatInput(){
     var input = document.getElementById("input_XML").value;
     
-    fetch('http://127.0.0.1:8585/format', {
+    fetch('/format', {
         method: "POST",
         headers: {
             'Content-Type': "application/json"  
