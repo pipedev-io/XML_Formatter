@@ -24,6 +24,10 @@ def styles(filename):
 def js_files(filename):
     return send_from_directory('.', f'{filename}.js')
 
+@app.route('/images/<filename>')
+def images(filename):
+    return send_from_directory('images', filename)
+
 @app.route('/format', methods=['POST'])
 @cross_origin()
 def format_xml():
