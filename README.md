@@ -1,7 +1,7 @@
 ## XML Formatter
 Just a simple XML formatter because I got tired of sketchy online tools.
 
-### What it does
+### What it does?
 Takes your messy XML
 Makes it pretty
 That's it
@@ -9,7 +9,7 @@ That's it
 ### Tech stuff
 This is V0 - nothing fancy. Used an existing XML library for the heavy lifting, just wanted to get a basic frontend talking to a backend.
 
-How to run it
+How to run it:
 go to pipedev.io
 
 ### Files
